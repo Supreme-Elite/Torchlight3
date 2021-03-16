@@ -1,0 +1,6 @@
+resources:
+- torchlight-deployment.yaml
+
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+nameSuffix: 1b3635d00fd3fdce204a5757d01a6db6d57b8a69

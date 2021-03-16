@@ -19,3 +19,4 @@ requests
 six
 urllib3
 yarl
+geoip2

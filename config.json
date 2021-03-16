@@ -1,13 +1,14 @@
 {
 	"VoiceServer":
 	{
-		"Host": "10.0.0.101",
+		"Host": "192.168.3.4",
 		"Port": 27020,
 		"SampleRate": 22050
 	},
+
 	"SMAPIServer":
 	{
-		"Host": "10.0.0.101",
+		"Host": "192.168.3.4",
 		"Port": 27021
 	},
 
@@ -28,12 +29,50 @@
 			"DelayFactor": 5.0
 		}
 	},
+
+	"Advertiser":
+	{
+			"MaxSpan": 30,
+			"AdStop": 10
+	},
+
+	"AccessLevel":
+	{
+		"Root": 6,
+		"Admin": 3,
+		"VIP": 0
+	},
+
+	"CommandLevel":
+	{
+		"Exec": 100,
+		"Dec": 100,
+		"AccessAdmin": 6,
+		"Enable": 6,
+		"Disable": 6,
+		"Reload": 3,
+		"Stop": 3,
+		"Say": 3,
+		"Youtube": 0,
+		"YoutubeSearch": 0,
+		"Random": 0,
+		"Trigger": 0,
+		"TriggerReserved": 0,
+		"Who": 0,
+		"Calculate": 0,
+		"Access": 0,
+		"Search": 0,
+		"Define": 0,
+		"Weather": 0,
+		"VoteDisable": 0
+	},
+
 	"AntiSpam":
 	{
 		"ImmunityLevel": 5,
 		"MaxUsageSpan": 60,
 		"MaxUsageTime": 10,
-		"PunishDelay": 60,
+		"PunishDelay": 120,
 		"StopLevel": 3,
 		"ChatCooldown": 15
 	},
@@ -41,11 +80,12 @@
 	"TorchRCON":
 	{
 		"Host": "0.0.0.0",
-		"Port": 27015,
-		"Password": "***"
+		"Port": 27025,
+		"Password": "****"
 	},
 
-	"WolframAPIKey": "***",
-	"WundergroundAPIKey": "***",
-	"OpenWeatherAPIKey": "***"
+	"WolframAPIKey": "*********",
+	"WundergroundAPIKey": "***********",
+	"OpenWeatherAPIKey": "*************"
 }
+
