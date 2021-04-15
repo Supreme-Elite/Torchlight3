@@ -1,10 +1,5 @@
 # Torchlight3 by [Botox](https://botox.bz/)
 
-
-## 1) Docker for PC Master Race🚀
-
-## GeoIP2 if you build your custom docker image
-
 ### Cs:source Server Requirements
 
 * [custom sourcemod](https://github.com/Supreme-Elite/sourcemod/releases/tag/1.11.0.6512)
@@ -13,6 +8,10 @@
 * SMJSONAPI plugin (Private Blyat)
 * [sm-ext-Voice](https://git.botox.bz/CSSZombieEscape/sm-ext-Voice) extension
 
+
+## 1) Docker for PC Master Race🚀
+
+## GeoIP2 if you build your custom docker image
 
 ### Installation
 1. Download latest release version of GeoLite2 City.
