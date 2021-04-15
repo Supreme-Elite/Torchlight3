@@ -5,6 +5,15 @@
 
 ## GeoIP2 if you build your custom docker image
 
+### Cs:source Server Requirements
+
+* [custom sourcemod](https://github.com/Supreme-Elite/sourcemod/releases/tag/1.11.0.6512)
+* [sm-ext-AsyncSocket](https://git.botox.bz/CSSZombieEscape/sm-ext-AsyncSocket) extension
+* [smjansson extension](https://forums.alliedmods.net/showthread.php?t=184604)
+* SMJSONAPI plugin (Private Blyat)
+* [sm-ext-Voice](https://git.botox.bz/CSSZombieEscape/sm-ext-Voice) extension
+
+
 ### Installation
 1. Download latest release version of GeoLite2 City.
 2. Extract all files from the archive with replacement to your game server.
@@ -30,11 +39,6 @@
 * FFMPEG
 * youtube-dl
 * On game server:
-* [custom sourcemod](https://github.com/Supreme-Elite/sourcemod/releases/tag/1.11.0.6512)
-* [sm-ext-AsyncSocket](https://git.botox.bz/CSSZombieEscape/sm-ext-AsyncSocket) extension
-* [smjansson extension](https://forums.alliedmods.net/showthread.php?t=184604)
-* SMJSONAPI plugin (Private Blyat)
-* [sm-ext-Voice](https://git.botox.bz/CSSZombieEscape/sm-ext-Voice) extension
 * A brain 😁
 
 
